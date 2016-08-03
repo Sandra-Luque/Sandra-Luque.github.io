@@ -1,0 +1,187 @@
+/**{outline: 1px solid rgba(225,0,0, 0.4);}*/
+$color_1:#336194;
+$color_2:#1A97B3;
+$color_3:#40C0CB;
+$color_4:#AEE238;
+$color_5:#8DBF00;
+.contbody{
+	background:rgba(21, 33, 45, .9);
+	height:auto;
+}
+.container{padding-top: 40px;}
+nav{height: auto;
+	ul{padding: 0;margin: 0;display: flex;list-style: none;
+	}
+	li{flex: auto;text-align: center;font-size: 3em;
+		&:nth-child(1){
+			background: $color_1;
+		}
+		&:nth-child(2){
+			background: $color_2;
+		}
+		&:nth-child(3){
+			background: $color_3;
+		}
+		&:nth-child(4){
+			background: $color_4;
+		}
+		&:nth-child(5){
+			background: $color_5;
+		}
+		a{
+			height: 140px;
+			width: 100%;
+			display: block;
+			color: #000;
+			padding-top: 60px;
+			text-decoration: none;
+			&:hover{
+				color: #fff;
+				transition-duration: 1s;
+				text-decoration: none;
+			}
+		}
+	}
+}
+#home{
+.cont-info{
+	height:400px;
+	.info_home{
+		width:60%;
+		height: 100%;
+		background: #fff;
+		padding:20px;
+		h1{
+			margin-bottom: 30px;
+		}
+		p{
+			font-size: 1.2em;	
+		}
+
+	}
+	.photo_home{
+		width: 40%;
+		height: 100%;
+		img{
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+}
+.social_media{
+	li{
+		list-style: none;
+		display: inline-block;
+		width: 150px;
+		margin-right: 20px;
+		margin-top: 10px;
+		text-align: center;
+
+		a{
+			height: 92px;
+			line-height: 97px;
+			width: 100%;
+			font-size: 35px;
+			color:#8B8382;
+			text-decoration: none;
+			background: rgba(0, 0, 0, 0.3);
+
+			&:hover{
+				color: #ffffff;
+				background: rgba(0, 0, 0, 0.4);
+				transition-duration: 1s;
+			}
+		}
+		.cv_download_btn{
+			color: #dedede;
+			font-size: 25px;
+			width: 320px;
+		}
+	}
+}
+}
+
+#about{
+	background:#fff;
+	padding:20px;
+	.title{
+		
+		.icon{
+			float: left;
+			padding:10px;
+			font-size: 30px;
+			background: $color_2;
+			color: #fff;
+			width: 50px;
+			text-align: center;
+		}
+		hr{
+			margin: 0;
+			height: 1.4px;
+			background: $color_2;
+			width: 30%;
+		}
+		.text{
+			font-size: 1.4em;
+			margin-left: 60px;
+			padding-top: 10px;
+		}
+		.clear{
+			clear: both;
+		}
+	}
+	.text{
+		font-size: 1.1em;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.personal_details{
+		.icon{
+			font-size: 1.3em;
+			color:$color_2;
+			float: left;
+
+			span{
+				margin-left: 8px;
+				color: #000;
+			} 
+		}
+		.text{
+			margin-left: 200px;
+		}
+	}
+	.Herramientas{
+		li{
+			list-style: none;
+			line-height: 5;
+			a{
+				text-decoration: none;
+				color: #fff;
+				background:$color_2;
+				width: 120px;
+				font-size: 1.2em;
+			}
+		}
+	}
+	.logros{
+		.date{
+			background:$color_2;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			color:#fff;
+			padding-left: 10px;
+		}
+		.et{
+			margin: 0;
+			height: 1px;
+			background: #000;
+			margin-bottom: 10px;
+
+		}
+		.award_title{
+			margin-left: 15px;
+		}
+		
+	}
+}
