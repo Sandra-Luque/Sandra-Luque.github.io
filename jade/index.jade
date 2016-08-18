@@ -1,0 +1,177 @@
+doctype html5
+html(lang="es")
+head
+	title Sandra Luque
+	meta(charset="UTF-8")
+	meta( http-equiv="X-UA-Compatible",content="IE=edge")
+	meta(name="viewport",content="width=device-width, initial-scale=1")
+
+	link(href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet")
+	link(rel="stylesheet",href="css/bootstrap.min.css")
+	link(rel="stylesheet",href="css/font-awesome.min.css")
+	link(rel="stylesheet" type="text/css" href="css/ionicons.min.css")
+	link(rel='stylesheet', href='css/reset.css')
+	link(rel="stylesheet",href="css/style.css")
+body
+	.navbar.main-menu.navbar-default.navbar-fixed-top(role='navigation')
+		.container
+			.navbar-header
+				button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href='#') MI PORTAFOLIO
+			#bs-example-navbar-collapse-1.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-right#main_menu
+					li
+						a(data-scroll='', data-options='easing: easeOutQuart', href='#banner') Inicio
+					li
+						a(data-scroll='', data-options='easing: easeOutQuart', href='#sobre') Sobre Mi
+					li
+						a(data-scroll='', data-options='easing: easeOutQuart', href='#estudy') Estudios y Habilidades
+					li
+						a(data-scroll='', data-options='easing: easeOutQuart', href='#port') Portafolio
+					li
+						a(data-scroll='', data-options='easing: easeOutQuart', href='#contac') Contactame
+	section#banner.section
+		.container#container
+			.intro
+				img.mdicon(src='img/samy.jpg')
+				h2.wow.fadeInUp(data-wow-duration='0.8s', data-wow-delay='1.0s') SANDRA LUQUE
+				p.wow.fadeInUp(data-wow-duration='0.8s', data-wow-delay='1.2s') Front-End Developer
+			.clearfix
+	section#sobre
+		.container
+			h1 SOBRE MI
+			.col-md-4
+				.cont_hr
+					i.icono.ion-woman
+					h5 QUIÉN SOY
+					.cont_text
+						p Mi nombre es  Sandra Veronica  soy una desarrolladora web, dinamica, pro-activa y con gran vocacion de servicio.
+
+			.col-md-4
+				.cont_hr
+					i.icono.ion-wrench
+					h5 HERRAMIENTAS QUE USO
+					.cont_text
+						ul
+							li.item_h
+								p &bull; Photoshop
+							li.item_h
+								p &bull; Coreldraw
+							li.item_h
+								p &bull; jQuery
+							li.item_h
+								p &bull; Wordpress
+							li.item_h
+								p &bull; Boostrap
+			.col-md-4
+				.cont_hr
+					i.icono.ion-trophy
+					h5  MIS LOGROS
+					.cont_text
+						ul
+							li &bull; Campeon inter-institutos en las diciplinas de fulbol y voley.
+							li &bull; Obtencion de media beca.
+	section#frace
+		.cont-img-cont
+			.cont-bakgraum
+				.grupo
+					.container
+						.contact-details
+							.company-phone 
+								a MI LIMITE EL CIELO
+	section#estudy
+		.container
+			h1 ESTUDIOS
+			ul.timeline
+				li
+					.timeline-badge.scrollflow.-slide-top.-opacity
+						i.fa.fa-graduation-cap
+					.timeline-panel
+						.timeline-heading
+							h3 Estudios Segundarios
+						.timeline-body
+							p En I.E. Ciudad de Dios. En el distrito de Yura.
+							p Ocupe los primeros puestos, siendo teniente alcalde durante 2 periodos.
+				li.timeline-inverted
+					.timeline-badge.warning
+						i.fa.fa-graduation-cap
+					.timeline-panel
+						.timeline-heading
+							h3 Estudios Superiores
+						.timeline-body
+							h2 Estudios Superiores
+							p Me gradue como Técnico en Computación e Informática el ISEP. Honorio Delgado Espinoza en la ciudad De Arequipa.
+
+				li
+					.timeline-badge.danger
+						i.fa.fa-graduation-cap
+					.timeline-panel
+						.timeline-heading
+							h3 Laboratoria
+						.timeline-body
+							p Me permitio conocer en detalle todas las  herramientas y funciones para la construccion de interfas web(front-end). Utilizando las ultimas tecnologias web:
+							br
+							ul
+								li &bull; html5
+								li &bull; Css3
+								li &bull; JQuery
+								li &bull; Booststrap
+
+	section#port
+		.container
+			#portfolio.text-center
+				h1 PORTAFOLIO
+				
+				.portfolio_container
+					.portafolio_item
+						img(src='img/01.jpg')
+					.portafolio_item
+						img(src='img/02.jpg')
+					.portafolio_item
+						img(src='img/03.jpg')
+					.portafolio_item
+						img(src='img/04.jpg')
+					.portafolio_item
+						img(src='img/05.jpg')
+					.portafolio_item
+						img(src='img/06.jpg')
+				
+	section#contac
+		.container
+			.row
+				h1 CONTACTAME
+				.col-md-12
+					form.contact-form#contact-form
+						.row
+							.col-md-6.wow.bounceIn
+								.form-group
+									input(type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name")
+							.col-md-6.wow.bounceIn
+								.form-group
+									input(type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail")
+							.col-md-12.wow.bounceIn
+									.form-group
+										textarea(class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message")
+							.col-md-12
+									button(type="submit" class="btn main-btn pull-right wow bounceIn" data-wow-duration="1s" data-wow-delay="1s") Enviar
+					ul.redes
+						li
+							a.fa.fa-github(href="#")
+						li
+							a.fa.fa-google-plus(href="#")
+
+
+			
+	script(src='js/jquery.min.js')
+	script(src='js/bootstrap.min.js')
+	script(src="js/eskju.jquery.scrollflow.min.js")
+	script(src="js/smooth-scroll.js")
+	
+	script(src="js/TweenMax.min.js")
+	script(src="js/ScrollToPlugin.min.js")
+	script(src="js/ScrollMagic.js")
+	script(src="js/menu.js")
